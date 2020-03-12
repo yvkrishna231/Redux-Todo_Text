@@ -80,7 +80,8 @@ const handleReducer = (state = initialState, action) => {
                 ...state,
                 input: action.payload,
                 TodoInputEdit: action.payload1,
-                editable: true
+                editable: true,
+                SameInputTextError: true,
 
             }
         }
